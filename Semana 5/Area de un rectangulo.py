@@ -1,5 +1,5 @@
 # calcular el área de un rectángulo
-# Utilizamos los tipos de datos float y string, y  identificadores descriptivos
+# Utilizamos los tipos de datos float y string.
 
 def calcular_area_rectangulo(base, altura):
     # Calcula el área multiplicando la base por la altura
