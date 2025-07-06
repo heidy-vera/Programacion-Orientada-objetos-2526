@@ -34,7 +34,7 @@ class Pantalon(Producto):
     def mostrar_detalle(self):
         print(f"Pantalón: {self.get_nombre()}, Color: {self.color}, Precio: ${self.precio:.2f}")
 
-# -------------------------------
+
 # Creacion de instancias objetos reales
 producto1 = Producto("Accesorio", 10.00)  # Producto general
 camisa1 = Camisa("Camisa Manga Corta", 35.00, "l")  # Objeto tipo Camisa
