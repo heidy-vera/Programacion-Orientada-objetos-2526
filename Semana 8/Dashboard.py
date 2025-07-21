@@ -8,7 +8,7 @@ def mostrar_codigo(ruta_script):
             print(f"\n--- Código de {ruta_script} ---\n")
             print(archivo.read())
     except FileNotFoundError:
-        print("❌ El archivo no se encontró.")
+        print(" El archivo no se encontró.")
     except Exception as e:
         print(f" Error al leer el archivo: {e}")
 
