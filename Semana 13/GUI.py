@@ -10,7 +10,6 @@ def agregar_dato():
     else:
         messagebox.showwarning("Advertencia", "El campo de texto está vacío")
 
-# Función para limpiar selección o lista completa
 def limpiar_datos():
     seleccion = lista.curselection()
     if seleccion:
