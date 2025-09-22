@@ -8,7 +8,6 @@ class AgendaApp:
         self.root.title("Agenda Personal")
         self.root.geometry("700x400")
 
-        # ---- Frame Principal ----
         main_frame = tk.Frame(root, padx=10, pady=10)
         main_frame.pack(fill="both", expand=True)
 
