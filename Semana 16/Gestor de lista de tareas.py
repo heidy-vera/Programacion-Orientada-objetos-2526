@@ -27,7 +27,7 @@ class GestorTareas:
         self.lista_tareas = tk.Listbox(root, selectmode=tk.SINGLE, width=45, height=15, font=("Arial", 11))
         self.lista_tareas.pack(pady=10)
 
-        # ---- Atajos de teclado ----
+        # Atajos de teclado
         self.root.bind("<Return>", lambda event: self.agregar_tarea())       # Enter para agregar
         self.root.bind("<c>", lambda event: self.marcar_completada())        # C para completar
         self.root.bind("<C>", lambda event: self.marcar_completada())        # Mayúscula C también
