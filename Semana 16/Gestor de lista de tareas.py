@@ -15,10 +15,10 @@ class GestorTareas:
         frame_botones = tk.Frame(root, bg="#F0F0F0")
         frame_botones.pack()
 
-        self.btn_agregar = tk.Button(frame_botones, text="➕ Agregar", width=12, command=self.agregar_tarea)
+        self.btn_agregar = tk.Button(frame_botones, text=" Agregar", width=12, command=self.agregar_tarea)
         self.btn_agregar.grid(row=0, column=0, padx=5, pady=5)
 
-        self.btn_completar = tk.Button(frame_botones, text="✅ Completar", width=12, command=self.marcar_completada)
+        self.btn_completar = tk.Button(frame_botones, text="Completar", width=12, command=self.marcar_completada)
         self.btn_completar.grid(row=0, column=1, padx=5, pady=5)
 
         self.btn_eliminar = tk.Button(frame_botones, text="🗑 Eliminar", width=12, command=self.eliminar_tarea)
